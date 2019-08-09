@@ -66,9 +66,14 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 2px;
+    border: 1px;
+    
+
 }
 
 .top-content {
@@ -143,4 +148,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+div.boxes {
+    color:auto;
+}
+
+.header {
+margin: 0 auto;
 }
