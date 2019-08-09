@@ -106,7 +106,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 12.5px;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -150,12 +150,9 @@ footer nav a {
 }
 
 
-.header {
-margin: 0 auto;
-}
-
- .middle-content .boxes .box1 {
+ .middle-content .boxes .box1{
 background-color: teal;
+
 }
 .middle-content .boxes .box2 {
 background-color:gold;
@@ -187,9 +184,15 @@ background-color:dodgerblue;
 } 
 
 button{
-    align-content:center;
-    margin: 20px 0;
-    font-size: 15px
-    border: 1px black;
-
+align-content:center;
+margin: 20px 0;
+font-size: 80px
+border: 3px black;
 }
+
+
+    .nav {
+    display: flex;
+flex-direction: column-reverse;
+justify-content: space-evenly;
+    }
