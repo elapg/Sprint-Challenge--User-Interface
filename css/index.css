@@ -70,8 +70,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    padding: 2px;
-    border: 5px;
+    
     
 
 }
@@ -109,9 +108,9 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,21 +149,18 @@ footer nav a {
     text-decoration: none;
 }
 
-div.boxes {
-    color:auto;
-}
 
 .header {
 margin: 0 auto;
 }
 
-.middle-content .boxes .box1 {
+ .middle-content .boxes .box1 {
 background-color: teal;
 }
 .middle-content .boxes .box2 {
 background-color:gold;
-
 }
+
 .middle-content .boxes .box3{
 background-color:cadetblue;
 }
@@ -189,3 +185,11 @@ background-color:indigo;
 .middle-content .boxes .box10{
 background-color:dodgerblue;
 } 
+
+button{
+    align-content:center;
+    margin: 20px 0;
+    font-size: 15px
+    border: 1px black;
+
+}
